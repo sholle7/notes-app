@@ -1,0 +1,26 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.light-container {
+    font-family: "Roboto-Thin", cursive, sans-serif;
+    transition: 0.9sec all ease-in;
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.dark-container {
+    font-family: "Roboto-Thin", cursive, sans-serif;
+    transition: 0.9sec all ease-in;
+    background-color: rgba(0, 0, 0, 0.842);
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+.da {
+    font-size: 50em;
+}
+
